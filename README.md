@@ -1,21 +1,6 @@
-#### 秋招一键通关知识点题库
-
-[C++](../../CPP语言相关)
-
-[C++并发](../../c++并发/README.md)
-
-[操作系统](../../操作系统)
-
-[数据库](../../数据库)
-
-[计算机网络](../../计算机网络)
-
-
-
----
-
-这个专栏我对剑指Offer专项训练进行了总结归纳，以及完善所有题解。
-
+|题目|题解|分类|相关题目|注释|
+|----|----|----|-------|----|
+|[剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/) |[题解](https://leetcode-cn.com/problems/WGki4K/solution/tong-guan-jian-2-shuang-bai-hash-wei-yun-nxzh/)|位操作 有限状态自动机|[136](https://leetcode-cn.com/problems/single-number/) [260](https://leetcode-cn.com/problems/single-number-iii/)||
 ### Hash
 
 #### [剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/)  [题解](https://leetcode-cn.com/problems/WGki4K/solution/tong-guan-jian-2-shuang-bai-hash-wei-yun-nxzh/)
