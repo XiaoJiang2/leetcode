@@ -1,65 +1,28 @@
 |题目|题解|分类|相关题目|注释|
 |----|----|----|-------|----|
-|[剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/) |[题解](https://leetcode-cn.com/problems/WGki4K/solution/tong-guan-jian-2-shuang-bai-hash-wei-yun-nxzh/)|位操作 有限状态自动机|[136](https://leetcode-cn.com/problems/single-number/) [260](https://leetcode-cn.com/problems/single-number-iii/)||
-### Hash
-
-#### [剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/)  [题解](https://leetcode-cn.com/problems/WGki4K/solution/tong-guan-jian-2-shuang-bai-hash-wei-yun-nxzh/)
-
-
-
-#### [剑指 Offer II 005. 单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/)  [题解](https://leetcode-cn.com/problems/aseY1I/solution/tong-guan-jian-2-shuang-bai-hash-zhuang-hjol4/)
-
-
-
-#### [剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)   [题解](https://leetcode-cn.com/problems/A1NYOS/solution/tong-guan-jian-2-cong-bao-sou-chao-shi-d-aocz/)
-
-
-
-#### [剑指 Offer II 030. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)  [题解](https://leetcode-cn.com/problems/FortPu/solution/tong-guan-jian-2-liang-chong-si-lu-hashv-eqy5/)
-
-
-
-#### [剑指 Offer II 032. 有效的变位词](https://leetcode-cn.com/problems/dKk3P7/)   [题解](https://leetcode-cn.com/problems/dKk3P7/solution/tong-guan-jian-2-chao-100-liang-si-lu-so-zyq2/)
-
-#### [剑指 Offer II 033. 变位词组](https://leetcode-cn.com/problems/sfvd7V/)   [题解](https://leetcode-cn.com/problems/sfvd7V/solution/tong-guan-jian-2-zhuo-chong-chao-100-by-6j163/)
-
-#### [剑指 Offer II 034. 外星语言是否排序](https://leetcode-cn.com/problems/lwyVBB/)  [题解](https://leetcode-cn.com/problems/lwyVBB/solution/tong-guan-jian-2-mo-ni-by-muluo-2-wb7d/)
+|[剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/) |[官方](https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetc-23t6/)|位操作 有限状态自动机|[136](https://leetcode-cn.com/problems/single-number/) [260](https://leetcode-cn.com/problems/single-number-iii/)|x^0=x​,x^1=~x,x&0=0,x&1=x|
+|[剑指 Offer II 005. 单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/)|[老汤](https://leetcode-cn.com/problems/aseY1I/solution/jian-dan-yi-dong-javac-pythonjs-zui-da-d-ffga/)|位操作 hash||bitmask|
+|[剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)|[muluo](https://leetcode-cn.com/problems/A1NYOS/solution/tong-guan-jian-2-cong-bao-sou-chao-shi-d-aocz/)|前缀和 hash||(0<<1)-1 = -1和(1<<1)-1 = 1|
+|[剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)||链表|||
+|[剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)||链表|||
+|[剑指 Offer II 026. 重排链表](https://leetcode-cn.com/problems/LGjMqU/)||链表||找中点，反转|
+|[剑指 Offer II 027. 回文链表](https://leetcode-cn.com/problems/aMhZSa/)||链表||reverse(rhead）使原链表保持不变|
+|[剑指 Offer II 028. 展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/)|[self](https://leetcode-cn.com/problems/Qv1Da2/solution/di-gui-by-jiangxiao13041012-2fpr/)  [muluo](https://leetcode-cn.com/problems/Qv1Da2/solution/tong-guan-jian-2-zhan-by-muluo-2-0ba5/)|链表 栈|||
+|[剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)|[self](https://leetcode-cn.com/problems/4ueAj6/solution/zhao-zui-da-ran-hou-cha-ru-by-jiangxiao1-5fma/)|链表||找到最大的node|
+|[剑指 Offer II 030. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)||hash|||
+|[剑指 Offer II 032. 有效的变位词](https://leetcode-cn.com/problems/dKk3P7/)||hash|||
+|[剑指 Offer II 033. 变位词组](https://leetcode-cn.com/problems/sfvd7V/) ||hash||sorted('abs') = ['a','b','c']|
+|[剑指 Offer II 034. 外星语言是否排序](https://leetcode-cn.com/problems/lwyVBB/)|[muluo](https://leetcode-cn.com/problems/lwyVBB/solution/tong-guan-jian-2-mo-ni-by-muluo-2-wb7d/)|hash||判断符合字典序|
+|[剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)  |[Henryboy233](https://leetcode-cn.com/problems/8Zf90G/solution/python-by-henryboy233-n2hg/)|栈 ||python除法a//b 不同于int(a/b)|
+|[剑指 Offer II 037. 小行星碰撞](https://leetcode-cn.com/problems/XagZNi/)|[self](https://leetcode-cn.com/problems/XagZNi/solution/stacktiao-jian-pan-duan-by-jiangxiao1304-kv79/)|栈||注意条件判断|
+|[剑指 Offer II 038. 每日温度](https://leetcode-cn.com/problems/iIQa4I/)||单调栈|||
+|[剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/)|[muluo](https://leetcode-cn.com/problems/WhsWhI/solution/tong-guan-jian-2-shuang-bai-yi-ti-san-ji-neiz/)|hash 中心拓展|||
+|[剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/) ||快速排序||times[0] + 24 * 60|
+|[剑指 Offer II 075. 数组相对排序](https://leetcode-cn.com/problems/0H97ZC/)|[官方](https://leetcode-cn.com/problems/0H97ZC/solution/shu-zu-xiang-dui-pai-xu-by-leetcode-solu-sfng/)|计数排序|||
 
 
 
-#### [剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/) [题解](https://leetcode-cn.com/problems/WhsWhI/solution/tong-guan-jian-2-shuang-bai-yi-ti-san-ji-neiz/)
 
-
-
-### 栈
-
-#### [剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)  [题解](https://leetcode-cn.com/problems/8Zf90G/solution/tong-guan-jian-2-zhan-by-muluo-2-u1j9/)
-
-#### [剑指 Offer II 037. 小行星碰撞](https://leetcode-cn.com/problems/XagZNi/)  [题解](https://leetcode-cn.com/problems/XagZNi/solution/tong-guan-jian-2-shuang-bai-zhan-by-mulu-8smi/)
-
-#### [剑指 Offer II 038. 每日温度](https://leetcode-cn.com/problems/iIQa4I/)  [题解](https://leetcode-cn.com/problems/iIQa4I/solution/tong-guan-jian-2-dan-diao-zhan-by-muluo-9sqik/)
-
-### 链表
-
-#### [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)  [题解](https://leetcode-cn.com/problems/UHnkqh/solution/tong-guan-jian-2-shuang-bai-bu-fei-hua-l-sc9u/)
-
-#### [剑指 Offer II 026. 重排链表](https://leetcode-cn.com/problems/LGjMqU/)  [题解](https://leetcode-cn.com/problems/LGjMqU/solution/tong-guan-jian-2-shuang-zhi-zhen-by-mulu-pz0g/)
-
-#### [剑指 Offer II 027. 回文链表](https://leetcode-cn.com/problems/aMhZSa/)  [题解](https://leetcode-cn.com/problems/aMhZSa/solution/tong-guan-jian-2-shuang-bai-by-muluo-2-jmmx/)
-
-#### [剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)  [题解](https://leetcode-cn.com/problems/lMSNwu/solution/tong-guan-jian-2-yuan-di-xiu-gai-mei-you-zhry/)
-
-#### [剑指 Offer II 028. 展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/) [题解](https://leetcode-cn.com/problems/Qv1Da2/solution/tong-guan-jian-2-zhan-by-muluo-2-0ba5/)
-
-#### [剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)  [题解](https://leetcode-cn.com/problems/4ueAj6/solution/tong-guan-jian-2-chao-100-luo-ji-jian-da-reg4/)
-
-
-
-### 排序
-
-#### [剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/)  [题解](https://leetcode-cn.com/problems/569nqc/solution/tong-guan-jian-2-pai-xu-mei-ju-by-muluo-i8viq/)
-
-#### [剑指 Offer II 075. 数组相对排序](https://leetcode-cn.com/problems/0H97ZC/)  [题解](https://leetcode-cn.com/problems/0H97ZC/solution/tong-guan-jian-2-ji-shu-pai-xu-yuan-di-c-rt0c/)
 
 
 
