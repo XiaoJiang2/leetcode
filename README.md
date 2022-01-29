@@ -1,3 +1,4 @@
+
 |题目|题解|分类|相关题目|注释|
 |----|----|----|-------|----|
 |[剑指 Offer II 004. 只出现一次的数字 ](https://leetcode-cn.com/problems/WGki4K/) |[官方](https://leetcode-cn.com/problems/single-number-ii/solution/zhi-chu-xian-yi-ci-de-shu-zi-ii-by-leetc-23t6/)|位操作 有限状态自动机|[136](https://leetcode-cn.com/problems/single-number/) [260](https://leetcode-cn.com/problems/single-number-iii/)|x^0=x​,x^1=~x,x&0=0,x&1=x|
@@ -13,34 +14,30 @@
 |[剑指 Offer II 032. 有效的变位词](https://leetcode-cn.com/problems/dKk3P7/)||hash|||
 |[剑指 Offer II 033. 变位词组](https://leetcode-cn.com/problems/sfvd7V/) ||hash||sorted('abs') = ['a','b','c']|
 |[剑指 Offer II 034. 外星语言是否排序](https://leetcode-cn.com/problems/lwyVBB/)|[muluo](https://leetcode-cn.com/problems/lwyVBB/solution/tong-guan-jian-2-mo-ni-by-muluo-2-wb7d/)|hash||判断符合字典序|
+|[剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/) ||快速排序||times[0] + 24 * 60|
 |[剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)  |[Henryboy233](https://leetcode-cn.com/problems/8Zf90G/solution/python-by-henryboy233-n2hg/)|栈 ||python除法a//b 不同于int(a/b)|
 |[剑指 Offer II 037. 小行星碰撞](https://leetcode-cn.com/problems/XagZNi/)|[self](https://leetcode-cn.com/problems/XagZNi/solution/stacktiao-jian-pan-duan-by-jiangxiao1304-kv79/)|栈||注意条件判断|
 |[剑指 Offer II 038. 每日温度](https://leetcode-cn.com/problems/iIQa4I/)||单调栈|||
-|[剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/)|[muluo](https://leetcode-cn.com/problems/WhsWhI/solution/tong-guan-jian-2-shuang-bai-yi-ti-san-ji-neiz/)|hash 中心拓展|||
-|[剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/) ||快速排序||times[0] + 24 * 60|
 |[剑指 Offer II 075. 数组相对排序](https://leetcode-cn.com/problems/0H97ZC/)|[官方](https://leetcode-cn.com/problems/0H97ZC/solution/shu-zu-xiang-dui-pai-xu-by-leetcode-solu-sfng/)|计数排序|||
+|[剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode-cn.com/problems/xx4gT2/)|[逗比克星](https://leetcode-cn.com/problems/xx4gT2/solution/jian-zhi-offer-2-mian-shi-ti-76-shu-zhon-721p/)|快速选择 堆排序||和快速排序类似|
+|[剑指 Offer II 079. 所有子集](https://leetcode-cn.com/problems/TVdhkn/)||回溯||子集类问题backtrack(start)|
+|[剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode-cn.com/problems/uUsW3B/)|[self](https://leetcode-cn.com/problems/uUsW3B/solution/zhong-yu-li-jie-liao-jian-zhi-de-han-yi-j6jw5/)|回溯|||
+|[剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode-cn.com/problems/Ygoe9J/)||回溯||组合问题backtrack(start)|
+|[剑指 Offer II 082. 含有重复元素集合的组合](https://leetcode-cn.com/problems/4sjJUc/)|[self](https://leetcode-cn.com/problems/4sjJUc/solution/rang-zhong-fu-yuan-su-xiang-lin-by-jiang-us70/)|回溯||让重复元素相邻，set去重|
+|[剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode-cn.com/problems/VvJkup/)||回溯|||
+|[剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode-cn.com/problems/7p8L0Z/)||回溯||与82一样，递归内set去重|
+|[剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/)|[muluo](https://leetcode-cn.com/problems/WhsWhI/solution/tong-guan-jian-2-shuang-bai-yi-ti-san-ji-neiz/)|hash 中心拓展|||
 
 
 
+|题目|题解|分类|相关题目|注释|
+|----|----|----|-------|----|
+
+||||||
+||||||
+||||||
 
 
-
-
-#### [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode-cn.com/problems/xx4gT2/) [题解](https://leetcode-cn.com/problems/xx4gT2/solution/tong-guan-jian-2-chao-100-kuai-su-xuan-z-76jh/)
-
-### DFS & BFS
-
-#### [剑指 Offer II 079. 所有子集](https://leetcode-cn.com/problems/TVdhkn/)  [题解](https://leetcode-cn.com/problems/TVdhkn/solution/tong-guan-jian-2-shuang-bai-dfs-jian-zhi-zwmp/)
-
-#### [剑指 Offer II 080. 含有 k 个元素的组合](https://leetcode-cn.com/problems/uUsW3B/) [题解](https://leetcode-cn.com/problems/uUsW3B/solution/tong-guan-jian-2-shuang-bai-shen-du-you-napnl/)
-
-#### [剑指 Offer II 081. 允许重复选择元素的组合](https://leetcode-cn.com/problems/Ygoe9J/)  [题解](https://leetcode-cn.com/problems/Ygoe9J/solution/tong-guan-jian-2-shuang-bai-dfs-hui-su-j-tcvk/)
-
-#### [剑指 Offer II 082. 含有重复元素集合的组合](https://leetcode-cn.com/problems/4sjJUc/) [题解](https://leetcode-cn.com/problems/4sjJUc/solution/tong-guan-jian-2-shuang-bai-pai-xu-dfs-h-2u8j/)
-
-#### [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode-cn.com/problems/VvJkup/) [题解](https://leetcode-cn.com/problems/VvJkup/solution/tong-guan-jian-2-shuang-bai-dfs-hui-su-j-sxiz/)
-
-#### [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode-cn.com/problems/7p8L0Z/)  [题解](https://leetcode-cn.com/problems/7p8L0Z/solution/tong-guan-jian-2-shuang-bai-dfs-hui-su-j-rz80/)
 
 #### [剑指 Offer II 086. 分割回文子字符串](https://leetcode-cn.com/problems/M99OJA/)  [题解](https://leetcode-cn.com/problems/M99OJA/solution/tong-guan-jian-2-dfs-dpyu-chu-li-by-mulu-76lf/)
 
